@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1015.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ActiveSessionsController">
+   <top>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="20.0" layoutY="14.0" prefHeight="24.0" prefWidth="152.0" text="COMPUTER UNITS">
+               <font>
+                  <Font name="Georgia" size="14.0" />
+               </font>
+            </Label>
+            <HBox layoutX="22.0" layoutY="44.0" prefHeight="149.0" prefWidth="963.0" style="-fx-background-color: rgb(230, 233, 175); -fx-background-radius: 10;">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Untitled_design__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="PC NO: 1">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Status:">
+                           <font>
+                              <Font name="Arial" size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button graphicTextGap="3.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #C8963C;" text="Details &gt;&gt;&gt;" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Label>
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Untitled_design__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="PC NO: 2">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Status:">
+                           <font>
+                              <Font name="Arial" size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #C8963C;" text="Details &gt;&gt;&gt;" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Label>
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Untitled_design__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="PC NO: 3">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Status:">
+                           <font>
+                              <Font name="Arial" size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #C8963C;" text="Details &gt;&gt;&gt;" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Label>
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Untitled_design__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="PC NO: 4">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Status:">
+                           <font>
+                              <Font name="Arial" size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #C8963C;" text="Details &gt;&gt;&gt;" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Label>
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Untitled_design__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="PC NO: 5">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Status:">
+                           <font>
+                              <Font name="Arial" size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #C8963C;" text="Details &gt;&gt;&gt;" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Label>
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Untitled_design__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="PC NO: 6">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Status:">
+                           <font>
+                              <Font name="Arial" size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #C8963C;" text="Details &gt;&gt;&gt;" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Label>
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Untitled_design__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="PC NO: 7">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Status:">
+                           <font>
+                              <Font name="Arial" size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #C8963C;" text="Details &gt;&gt;&gt;" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Label>
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Untitled_design__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="PC NO: 8">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Status:">
+                           <font>
+                              <Font name="Arial" size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #C8963C;" text="Details &gt;&gt;&gt;" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Label>
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Untitled_design__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="PC NO: 9">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Status:">
+                           <font>
+                              <Font name="Arial" size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #C8963C;" text="Details &gt;&gt;&gt;" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Label>
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../Downloads/Untitled_design__2_-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="PC NO: 10">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                        <Label text="Status:">
+                           <font>
+                              <Font name="Arial" size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #C8963C;" text="Details &gt;&gt;&gt;" textFill="WHITE">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Label>
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <Pane prefHeight="29.0" prefWidth="1015.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="20.0" layoutY="5.0" prefHeight="24.0" prefWidth="152.0" text="ACTIVE SESSIONS:">
+                     <font>
+                        <Font name="Georgia" size="14.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+         </top>
+         <left>
+            <Pane prefHeight="375.0" prefWidth="698.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TableView fx:id="tableView" editable="true" layoutX="14.0" layoutY="3.0" prefHeight="359.0" prefWidth="672.0" style="-fx-border-color: #C8963C; -fx-border-radius: 10; -fx-background-radius: 10;">
+                    <columns>
+                      <TableColumn fx:id="colSessionID" prefWidth="70.0" text="Session ID" />
+                      <TableColumn fx:id="colDuration" prefWidth="98.0" text="Duration" />
+                        <TableColumn fx:id="colStartTime" prefWidth="112.0" text="StartTime" />
+                        <TableColumn fx:id="colEndTime" prefWidth="107.0" text="EndTime" />
+                        <TableColumn fx:id="colStatus" prefWidth="102.0" text="Status" />
+                        <TableColumn fx:id="colUserID" prefWidth="57.0" text="UserID" />
+                        <TableColumn fx:id="colUnitID" prefWidth="58.0" text="UnitID" />
+                        <TableColumn fx:id="colAdminID" prefWidth="66.0" text="AdminID" />
+                    </columns>
+                  </TableView>
+               </children>
+            </Pane>
+         </left>
+         <right>
+            <Pane prefHeight="375.0" prefWidth="313.0" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </center>
+</BorderPane>

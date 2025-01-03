@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainBorderPane" maxHeight="500" maxWidth="754.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="754.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserDashboardController">
+    <right>
+        <VBox prefHeight="500.0" prefWidth="234.0" style="-fx-background-color: rgb(21, 21, 21);" BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="CENTER" prefHeight="111.0" prefWidth="234.0">
+                    <children>
+                  <ImageView fitHeight="37.0" fitWidth="201.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/image-removebg-preview%20(9).png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets top="3.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </HBox>
+            <VBox alignment="TOP_CENTER" prefHeight="305.0" prefWidth="234.0">
+               <children>
+                  <Button fx:id="myAccountButton" mnemonicParsing="false" onMouseClicked="#initialize" prefHeight="25.0" prefWidth="158.0" style="-fx-background-color: white;" text="My Account">
+                     <VBox.margin>
+                        <Insets bottom="20.0" top="40.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="priceRangeButton" mnemonicParsing="false" onMouseClicked="#initialize" prefHeight="25.0" prefWidth="158.0" style="-fx-background-color: white;" text="Price Rates" />
+                  <Button fx:id="hourPackagesButton" mnemonicParsing="false" onMouseClicked="#initialize" prefHeight="25.0" prefWidth="158.0" style="-fx-background-color: white;" text="Hour Packages">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="editPasswordButton" mnemonicParsing="false" onMouseClicked="#initialize" prefHeight="25.0" prefWidth="158.0" style="-fx-background-color: white;" text="Edit Password">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <HBox alignment="TOP_CENTER" prefHeight="80.0" prefWidth="234.0">
+               <children>
+                  <Button fx:id="logoutButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="158.0" style="-fx-background-color: #C8963C;" text="LOGOUT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </right>
+   <center>
+      <Pane prefHeight="500.0" prefWidth="504.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="383.0" fitWidth="386.0" layoutX="69.0" layoutY="59.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cs26logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
